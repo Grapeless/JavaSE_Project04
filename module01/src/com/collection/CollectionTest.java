@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 
-public class Test {
+public class CollectionTest {
     public static void main(String[] args) {
         Collection<String> c = new ArrayList<>();
         //1.
