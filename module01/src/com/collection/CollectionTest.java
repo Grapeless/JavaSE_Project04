@@ -12,7 +12,7 @@ public class CollectionTest {
         c.add("B");
         c.add("C");
         c.add("B");
-        System.out.println(c); //重写过的toString
+        System.out.println(c); //String类的toString方法
         //2.
         c.clear();
         System.out.println(c);
