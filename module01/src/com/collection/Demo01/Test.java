@@ -1,8 +1,5 @@
 package com.collection.Demo01;
 
-import java.util.ArrayList;
-import java.util.Collection;
-
 public class Test {
     public static void main(String[] args) {
         MovieManage mm = new MovieManage();

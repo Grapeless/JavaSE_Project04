@@ -1,5 +1,7 @@
 package com.collection;
-
+//1.有啥特点
+//2.特有功能
+//3.适合什么业务
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
