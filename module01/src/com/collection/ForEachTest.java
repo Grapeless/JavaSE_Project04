@@ -6,8 +6,7 @@ import java.util.function.Consumer;
 
 public class ForEachTest {
     public static void main(String[] args) {
-        //增强for循环
-        //可以原来遍历数组和集合
+        //1.增强for循环，可以用来遍历数组和集合
         //for(容器元素的数据类型 变量名：数组或集合){}
 
         //数组
@@ -27,7 +26,7 @@ public class ForEachTest {
 
         System.out.println("----------------");
 
-        //for-Each
+        //2.for-Each
         c.forEach(new Consumer<Integer>() {
             @Override
             public void accept(Integer integer) {
