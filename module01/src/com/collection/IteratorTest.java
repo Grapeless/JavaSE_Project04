@@ -14,7 +14,7 @@ public class IteratorTest {
         //1.从集合器对象中获取迭代器对象
         Iterator<String> iterator = c.iterator();
 
-        //2.next()方法，便利一次移动一次
+        //2.next()方法，遍历一次移动一次
         System.out.println(iterator.next());
         System.out.println(iterator.next());
         //System.out.println(iterator.next());
@@ -31,5 +31,6 @@ public class IteratorTest {
             System.out.println(iterator2.next());
         } while (iterator2.hasNext());
 
+        //*4.remove()方法，移除一次同时next倒退一次
     }
 }
