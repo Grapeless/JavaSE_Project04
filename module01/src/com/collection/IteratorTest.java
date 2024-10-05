@@ -17,7 +17,7 @@ public class IteratorTest {
         //2.next()方法，遍历一次移动一次
         System.out.println(iterator.next());
         System.out.println(iterator.next());
-        //System.out.println(iterator.next());
+        System.out.println(iterator.next());
 
         //使用循环结合迭代器遍历集合
         //3.hasNext()方法
