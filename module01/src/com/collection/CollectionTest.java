@@ -55,6 +55,7 @@ public class CollectionTest {
         c2.add(3);
         c2.add(4);
         c1.addAll(c2);
+        System.out.println(c1);
 
     }
 }

@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.function.Consumer;
 
 //List系列集合：元素有序，可重复，有索引
-public class ListTest {
+public class Test {
     public static void main(String[] args) {
         //fun1();
         fun2();
