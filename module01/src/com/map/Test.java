@@ -74,7 +74,7 @@ public class Test {
         }
         System.out.println("=========");
         //遍历2.键值对
-        Set<Map.Entry<String, Integer>> entries = map1.entrySet();   //,entrySet()
+        Set<Map.Entry<String, Integer>> entries = map1.entrySet();   //entrySet()，封装为Entry对象
         for (Map.Entry<String, Integer> entry : entries) {
             System.out.println(entry.getKey() + "==>" + entry.getValue());       //.getKey() .getValue()
         }
