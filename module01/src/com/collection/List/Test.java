@@ -14,7 +14,7 @@ public class Test {
 
     //常用方法
     public static void fun1() {
-        //多态写法，ArrayList用的多
+        //多态写法，ArrayList用的多  Classic
         List<Double> list = new ArrayList<>();
         list.add(1.0);
         list.add(2.0);

@@ -11,7 +11,7 @@ public class Test {
 
         Student1 s1 = new Student1(12,"lim");
         Student1 s2 = new Student1(12,"lim");
-        Set<Student1> set1 = new HashSet<>();
+        Set<Student1> set1 = new HashSet<>();  //Classic
         set1.add(s1);
         set1.add(s2);
         System.out.println(s1.hashCode()+" "+s2.hashCode());
