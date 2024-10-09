@@ -79,7 +79,7 @@ public class Test {
             System.out.println(entry.getKey() + "==>" + entry.getValue());       //.getKey() .getValue()
         }
         System.out.println("=========");
-        //遍历3.lambda表达式(forEach)
+        //遍历3.forEach
         map1.forEach(new BiConsumer<String, Integer>() {
             @Override
             public void accept(String s, Integer integer) {
