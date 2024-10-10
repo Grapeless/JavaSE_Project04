@@ -1,4 +1,4 @@
-package com.package01.Demo01;
+package com.Demo.Demo01;
 
 import java.util.*;
 
