@@ -1,4 +1,4 @@
-package com.iostream.Writer;
+package com.iostream.CharStream.Writer;
 
 public class Test {
     //字符输出流

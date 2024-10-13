@@ -1,4 +1,4 @@
-package com.iostream.Writer.FileWriter;
+package com.iostream.CharStream.Writer.FileWriter;
 
 import java.io.FileWriter;
 import java.io.IOException;

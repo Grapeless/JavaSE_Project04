@@ -1,4 +1,4 @@
-package com.iostream.Reader;
+package com.iostream.CharStream.Reader;
 
 public class Test {
     //字符输入流

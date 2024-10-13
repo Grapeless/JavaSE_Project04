@@ -1,4 +1,4 @@
-package com.iostream.InputStream;
+package com.iostream.ByteStream.InputStream;
 
 public class Test {
     //字节输入流
