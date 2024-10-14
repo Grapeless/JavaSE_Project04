@@ -4,7 +4,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 public class Test {
-    //基于红黑树的排序
+    //基于红黑树的排序,只能对键排序
     //1.对于Integer，Double按照其值大小升序排序
     //2.对于String类，按首字符编号进行排序
     //3.对于自定义类型：
