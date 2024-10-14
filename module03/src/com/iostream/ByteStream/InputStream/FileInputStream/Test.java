@@ -14,7 +14,7 @@ public class Test {
         //多态写法
         InputStream is1 = new FileInputStream("module03/IOStreamTest/A.txt");
 
-        //2.read(),读取一个字节，返回该字节的值（一个介于 0 到 255 之间的整数）,读空返回-1。
+        //2.1 read(),读取一个字节，返回该字节的值（一个介于 0 到 255 之间的整数）,读空返回-1。
         int b1 = is1.read();
         System.out.println((char) b1);
         //流式读取，不会从头开始
@@ -24,7 +24,7 @@ public class Test {
 
 
 
-        //3.read(byte[] buffer),读取多个字节放入buffer中，个数取决与buffer大小和文件剩余字节数。
+        //2.2 read(byte[] buffer),读取多个字节放入buffer中，个数取决与buffer大小和文件剩余字节数。
         // 返回读取到的字节个数，读空返回-1.
         InputStream is2 = new FileInputStream("module03/IOStreamTest/B.txt");
         byte[] buffer = new byte[3]; //每次读取三个字节

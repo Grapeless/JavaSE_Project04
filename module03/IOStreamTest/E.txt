@@ -4,3 +4,6 @@ String
 BC
 123
 23
+Aabc
+Aabc
+被换行
