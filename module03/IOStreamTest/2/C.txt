@@ -1,0 +1,6 @@
+//可以用两个反斜杠来避免与转义字符(也是以反斜杠开始）出现混乱
+File f1 = new File("D:\\Project\\IOStream\\Book.txt");
+//或者用单正斜杠即可
+File f2 = new File("D:/Project/IOStream/Book.txt");
+//又或者用 File.separator替代正斜杠
+File f3 = new File("D:"+File.separator+"Project"+File.separator+"IOStream"+File.separator+"Book.txt");
