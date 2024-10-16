@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 以上抬头声明必须放在第一行，必须存在-->
+<!--
+    //1.标签成对出现
+    //2.标签名可自定义（可扩展）
+    //3.有且仅有一个根标签
+    //4.标签有属性
+    -->
+<users>
+    <user id ="1"> user1
+        <name>Lim</name>
+        <gender>m</gender>
+        <address>青藏高原</address>
+        <password>1234 </password>
+    </user>
+    <user id ="2"> user2
+        <name>Alex</name>
+        <gender>m</gender>
+        <address>黄土高坡</address>
+        <password>1234 &lt; </password>
+        <![CDATA[
+                < > &
+        ]]>
+    </user>
+    <people>people</people>
+</users>
