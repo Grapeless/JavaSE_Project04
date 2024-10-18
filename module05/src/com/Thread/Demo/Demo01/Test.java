@@ -8,9 +8,9 @@ public class Test {
         t1.start();
         t2.start();
 
-
-
         Thread.sleep(1000);
         System.out.println(TestThread.sum);
+
+        Thread.State
     }
 }
