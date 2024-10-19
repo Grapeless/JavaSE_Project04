@@ -12,7 +12,7 @@ public class Server {
             serverSocket = new ServerSocket(8888);
 
             while (true) {
-                //等待客户端的连接请求
+                //不断等待客户端的连接请求
                 Socket socket = serverSocket.accept();
                 System.out.println(socket.getRemoteSocketAddress()+"上线了");
                 //把这个客户端对应的socket交给一个独立的线程处理

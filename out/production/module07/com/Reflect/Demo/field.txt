@@ -1,0 +1,9 @@
+---------Student--------
+name:Lim
+age:20
+height:170.0
+weight:110.0
+---------Teacher--------
+name:Alex
+age:35
+wage:10000.0
